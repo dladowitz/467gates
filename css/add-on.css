@@ -1,7 +1,13 @@
 * {
-    -webkit-box-sizing: initial;
-    -moz-box-sizing: initial;
-    box-sizing: initial;
+  -webkit-box-sizing: initial;
+  -moz-box-sizing: initial;
+  box-sizing: initial;
+}
+
+.modal-dialog * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /*Gallery*/
@@ -10,6 +16,8 @@
   width: 30%;
   overflow: hidden;
 }
+
+
 
 .gallery-row {
   margin-top: 30px;
